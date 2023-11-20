@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>MailChimp</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="container">
+
+            <article class="mailchimp">
+                <img src="imagenes/logo.png" alt="logo Mailchimp">
+            </article>
+
+            <article class="form-container">
+
+                <form action="" method="">
+
+                    <fieldset>
+                        <legend>
+                            <h1>Welcome to Mailchimp</h1>
+                            <small>Find your people. Engage your customers. Build your brand.Do it all whit Mailchimp's
+                                Marketing Platform. Already have an account? <a href="">Log in</a></small>
+                        </legend>
+
+
+
+                        <div>
+                            <label for="title">Title:</label>
+                            <select id="title" name="title" required>
+                                <option value="" disabled selected>Select title</option>
+                                <option value="Mr.">Man</option>
+                                <option value="Ms.">Woman</option>
+                                <option value="Dr.">Non-binary</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="email">email</label>
+                            <input type="email" id="email" name="email" required placeholder="example@mailchimp.com"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" minlength="6">
+                        </div>
+
+                        <div>
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required placeholder="YourUsername"
+                                minlength="3" maxlength="20">
+                        </div>
+
+                        <div>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required minlength="8" maxlength="20"
+                                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                                placeholder="Password">
+                        </div>
+
+                        <div>
+                            <button type="submit">Send</button>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li>At least one uppercase letter.</li>
+                                <li>At least one lowercase letter.</li>
+                                <li>At least one number.</li>
+                                <li>At least one special character.</li>
+                                <li>Minimum length of 8 characters.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <label>
+                                <p>I agree to the terms and conditions.</p>
+                                <input type="checkbox" name="agree" required>
+                                
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                </form>
+
+            </article>
+
+        </section>
+
+
+    </main
+
+
+</body>
+
+</html>
